@@ -1,0 +1,23 @@
+/* border.component.css */
+
+/* Default border styles */
+.responsive-border {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Responsive border styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    .responsive-border {
+      border-color: #ff5733; /* Different color for smaller screens */
+    }
+  }
+  
+  /* Responsive border styles for screens 768px and larger */
+  @media (min-width: 768px) {
+    .responsive-border {
+      border-color: #33ff57; /* Different color for larger screens */
+    }
+  }
+  
